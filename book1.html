@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
+
+<style>
+    /* تعریف فونت کازابلانکا */
+    @font-face {
+        font-family: 'Casablanca';
+        src: url('https://cdn.fontcdn.ir/Font/Persian/Casablanca/Casablanca.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    /* فراخوانی نستعلیق */
+    @import url('https://fonts.googleapis.com/css2?family=IranNastaliq&display=swap');
+</style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>۱۲ قانون زندگی - نسخه جامع آموزشی</title>
-   
+</head>
 <style>
+body {
+    /* استفاده از کازابلانکا برای بدنه سایت */
+    font-family: 'Casablanca', 'Tahoma', sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+h1, .logo {
+    /* استفاده از نستعلیق برای تیترها */
+    font-family: 'IranNastaliq', serif !important;
+    color: #d4af37;
+    font-size: 3.5rem;
+    line-height: 2.5;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* اگر دکمه یا کارت کتاب داری، فونت کازابلانکا روی آن‌ها عالی می‌شود */
+.book-card p, .btn {
+    font-family: 'Casablanca', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+
     :root {
         --bg-color: #121212;         /* مشکی مات */
         --card-bg: #1a1a1a;          /* مشکی کمی روشن‌تر برای باکس‌ها */
